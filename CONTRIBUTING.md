@@ -1,0 +1,17 @@
+# Contributing
+
+## 组织级产品、实测与发布规范
+
+整理、上传、同步或发布 GenNova 产品与测量资料时，必须遵守
+[GN-PUBLISH-001：统一产品、实测数据与发布规范](https://github.com/GenNova-HUST/gennova-knowledge/blob/main/governance/measurement-publication.md)。
+本入口适用于人员、自动化与 AI 助手；完整规范以上述维护源为准。
+
+- 一个 GenNova 产品入口、一张实测页；State、D、Autotune 是可选组件。
+  D 是遵循 RIDE 边界的分布式服务控制面。不得恢复独立历史页或组件性能页。
+- 历史数据继续归档、订正和同步；冻结证据不可覆盖，负结果与缺项必须保留。
+- 不限不等于关闭，未知不推断为关闭，未测不填零；没有实测的组件组合不拼接收益。
+- 模型、硬件（含 Ascend 910B/910C）、执行版本与测量口径分别绑定；
+  功能检查、CPU/mock、真机性能、精度、长稳与生产验收不得混称。
+- 生产仓库维护来源，benchmark 冻结并导出，website 统一展示；禁止手改网页数字。
+  官网仅发布 `.public-site/` 白名单产物，沿用 CI 发布与线上字节校验。
+- 本规范不增加设备、合并或发布权限；继续遵守本仓库职责、资源与工程规则。
