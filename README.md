@@ -19,3 +19,5 @@ API 地址 `http://127.0.0.1:18181/v1`，模型别名 `gennova-local`。在客�
 在 Windows“已安装的应用”中卸载。程序与快捷方式会移除，模型和日志保留在 `%LOCALAPPDATA%\GenNova\Box`。
 
 本仓库仅分发公开安装包、使用说明与版本记录。客户端源码保存在组织私有仓库。
+
+组织级整理与发布规则：[GN-PUBLISH-001](https://github.com/GenNova-HUST/gennova-knowledge/blob/main/governance/measurement-publication.md)（产品入口、实测口径、历史维护与公开边界）。
