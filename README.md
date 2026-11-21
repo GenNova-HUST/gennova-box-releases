@@ -27,5 +27,3 @@
 独立 MSI/EXE 页面当前仅保留历史预览。0.3.0 在完成全新 Windows、长期稳定性、资源释放和其他适用验收前，不作为新的独立公开安装包发布。
 
 本机 API 使用 `http://127.0.0.1:18181/v1`，只监听回环地址，并使用本机访问密钥。不同版本的模型、硬件、上下文与验证范围以对应 Release 和产品页为准，不跨版本拼接结论。
-
-组织级整理与发布规则：[GN-PUBLISH-001](https://github.com/GenNova-HUST/gennova-knowledge/blob/main/governance/measurement-publication.md)。
