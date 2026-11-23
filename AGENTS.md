@@ -1,17 +1,7 @@
-# Agent instructions
+# GenNova Box 公开发布工作约定
 
 ## 组织级产品、实测与发布规范
 
-整理、上传、同步或发布 GenNova 产品与测量资料时，必须遵守
-[GN-PUBLISH-001：统一产品、实测数据与发布规范](https://github.com/GenNova-HUST/gennova-knowledge/blob/main/governance/measurement-publication.md)。
-本入口适用于人员、自动化与 AI 助手；完整规范以上述维护源为准。
+整理、归档、同步和发布遵守组织规范 [GN-PUBLISH-001](https://github.com/GenNova-HUST/gennova-knowledge/blob/main/governance/measurement-publication.md)。
 
-- GenNova 是闭源推理引擎，D 是遵循 RIDE 边界的服务控制面，State 是规划中的智能体环境，涵盖长期记忆、执行沙箱与任务接续。Autotune 提供配套调优能力。
-  推理状态、KV 缓存与恢复归 GenNova。官网统一产品入口与实测页，不另设历史页或组件性能页。
-- 历史数据只在内部继续归档、订正和同步，不在官网展示或公开下载；不得通过专项实验、测试记录选择器、组件开关恢复历史展示。冻结证据不可覆盖，负结果与缺项必须保留。
-- 不限不等于关闭，未知不推断为关闭，未测不填零；没有实测的组件组合不拼接收益。
-- 模型、硬件（含 Ascend 910B/910C）、执行版本与测量口径分别绑定；
-  功能检查、CPU/mock、真机性能、精度、长稳与生产验收不得混称。
-- 生产仓库维护来源，benchmark 冻结并导出，website 统一展示；禁止手改网页数字。
-  官网仅发布 `.public-site/` 白名单产物，沿用 CI 发布与线上字节校验。
-- 本规范不增加设备、合并或发布权限；继续遵守本仓库职责、资源与工程规则。
+本仓库公开发布 Box 安装包、校验值和发行说明。安装链接、签名或散列须对应实际发布资产。客户端使用入口为 [官网下载页](https://gennova.sage.org.ai/download)。
